@@ -7,8 +7,8 @@ Getting Started
 ==========
 
 ```sh
-git clone git@github.com:Kaveshan/rover-challenge.git
-cd rover-challenge/
+git clone git@github.com:Kaveshan/mars-rover-challenge.git
+cd mars-rover-challenge/
 bundle install
 ```
 
@@ -17,12 +17,12 @@ Input
 
 Please edit commands.txt file with the below format for instructions.
 
-P.S One set of instructions to be added to the file.
-
 ```sh
 8 8
-1 2 E
-MMLMRMMRRMML
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
 ```
 
 Execution
@@ -30,7 +30,7 @@ Execution
 
 Once instuctions have been entered and saved to commands.txt, please proceed to execute the code by typing the below command:
 
-P.S Make sure you are in the rover-challenge directory before running this command
+P.S Make sure you are in the mars-rover-challenge directory before running this command
 
 ```sh
 ruby control_rover.rb
@@ -44,7 +44,8 @@ The output will print the co-ordinates of the rover in a message as below:
 Example output
 
 ```sh
-"Rover is within Mars surface and is safe to land, co-ordinates: 3 3 S"
+"Rover is within Mars surface, co-ordinates: 1 3 N"
+"Rover is within Mars surface, co-ordinates: 5 1 E"
 ```
 
 If the rover is out of the surface of Mars it will print the co-ordinates of the rover in a message as below:
@@ -52,7 +53,7 @@ If the rover is out of the surface of Mars it will print the co-ordinates of the
 Example output
 
 ```sh
-"Rover in NOT within Mars surface and is NOT safe to land, co-ordinates 11 10 S"
+"Rover in NOT within Mars surface, co-ordinates 11 10 S"
 ```
 
 Libraries
