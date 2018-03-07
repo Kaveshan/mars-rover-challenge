@@ -1,7 +1,7 @@
 Rover Challenge
 ==========
 
-The Rover Challenge, takes instructions from base these instructions control the rover's movement to allow the rover to land safely onto Mars.
+The Rover Challenge, takes instructions from base these instructions control the rover's movement to allow the rover to hover over Mars.
 
 Getting Started
 ==========
@@ -18,7 +18,7 @@ Input
 Please edit commands.txt file with the below format for instructions.
 
 ```sh
-8 8
+5 5
 1 2 N
 LMLMLMLMM
 3 3 E
